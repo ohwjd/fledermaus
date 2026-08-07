@@ -1,0 +1,61 @@
+schema_version: 3
+campaign:
+  name: "fledermaus"
+  title: "Fledermaus Overtüre"
+  description: "This is a description of the campaign."
+  instigator: "38179254"
+  repo_id: 1326621919
+  language: "en"
+  license: "CC-BY-4.0"
+automation:
+  central_repository: "lets-encode/instigation"
+  ref: "main"
+  path: "scripts/coordinator.ts"
+source:
+  kind: "facsimile"
+  images:
+    - "sources/img/01.jpg"
+    - "sources/img/02.jpg"
+    - "sources/img/03.jpg"
+    - "sources/img/04.jpg"
+    - "sources/img/05.jpg"
+    - "sources/img/06.jpg"
+    - "sources/img/07.jpg"
+    - "sources/img/08.jpg"
+    - "sources/img/09.jpg"
+    - "sources/img/10.jpg"
+    - "sources/img/11.jpg"
+    - "sources/img/12.jpg"
+  header:
+    title: "Overtüre zur Operette Die Fledermaus"
+    composer: "Strauss"
+    publisher: "Breitkopf"
+    date: "1867"
+  rights_acknowledged: "1"
+pieces:
+  - id: "piece-01"
+    kind: "facsimile"
+    path: "sources/piece-01/score.mei"
+    zones:
+      - { surface: 1, ulx: 0, uly: 0, lrx: 1190, lry: 1684 }
+      - { surface: 2, ulx: 0, uly: 0, lrx: 1190, lry: 1684 }
+      - { surface: 3, ulx: 0, uly: 0, lrx: 1190, lry: 1684 }
+      - { surface: 4, ulx: 0, uly: 0, lrx: 1190, lry: 1684 }
+      - { surface: 5, ulx: 0, uly: 0, lrx: 1190, lry: 1684 }
+      - { surface: 6, ulx: 0, uly: 0, lrx: 1190, lry: 1684 }
+      - { surface: 7, ulx: 0, uly: 0, lrx: 1190, lry: 1684 }
+      - { surface: 8, ulx: 0, uly: 0, lrx: 1190, lry: 1684 }
+      - { surface: 9, ulx: 0, uly: 0, lrx: 1190, lry: 1684 }
+      - { surface: 10, ulx: 0, uly: 0, lrx: 1190, lry: 1684 }
+      - { surface: 11, ulx: 0, uly: 0, lrx: 1190, lry: 1684 }
+      - { surface: 12, ulx: 0, uly: 0, lrx: 1190, lry: 1684 }
+    header:
+      title: "Overtüre zur Operette Die Fledermaus"
+      composer: "Strauss"
+fragmentation:
+  strategy: "by-piece"
+validation:
+  required_validations: 1
+  pass_threshold: 1
+locking:
+  stale_after_minutes: 120
